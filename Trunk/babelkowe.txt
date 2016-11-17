@@ -12,7 +12,7 @@ void sortowanie_babelkowe(int tab[],int n)
 }
  
 int main()/* oto funkcja main - 2*/
-{
+{/* poczatek klamrowy - 8*/
   int *tab, n;/* jakis int - 3*/
  
   cout<<"Ile liczb bêdziesz chcia³ posortowaæ? ";
