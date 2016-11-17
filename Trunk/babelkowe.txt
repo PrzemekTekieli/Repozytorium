@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cstdlib>
-using namespace std;
+using namespace std;/* namespace - 6 */
  
 void sortowanie_babelkowe(int tab[],int n)
 {/* koemntarz 1*/
