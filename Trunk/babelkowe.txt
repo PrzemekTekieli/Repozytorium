@@ -2,7 +2,7 @@
 #include<cstdlib>
 using namespace std;
  
-void sortowanie_babelkowe(int tab[],int n)
+void sortowanie_babelkowe(int tab[],int n)/*funkcja sortujaca - 9 */
 {/*komentarz1*/
   for(int i=0;i<n;i++)/* petla - 8*/
     for(int j=1;j<n-i;j++) //pêtla wewnêtrzna
