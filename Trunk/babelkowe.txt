@@ -9,7 +9,7 @@ void sortowanie_babelkowe(int tab[],int n)
     if(tab[j-1]>tab[j])
       //zamiana miejscami
       swap(tab[j-1], tab[j]);
-}
+}/*komentarz2*/
  
 int main()
 {
