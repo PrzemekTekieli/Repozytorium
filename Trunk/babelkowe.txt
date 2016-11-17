@@ -8,7 +8,7 @@ void sortowanie_babelkowe(int tab[],int n)
     for(int j=1;j<n-i;j++) //pêtla wewnêtrzna
     if(tab[j-1]>tab[j])
       //zamiana miejscami
-      swap(tab[j-1], tab[j]);
+      swap(tab[j-1], tab[j]);/*cos sie swapuje - 7*/
 }/*komentarz2*/
  /*kolejny 6 komentarz*/
 int main()
