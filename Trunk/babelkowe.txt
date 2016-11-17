@@ -10,7 +10,7 @@ void sortowanie_babelkowe(int tab[],int n)
       //zamiana miejscami
       swap(tab[j-1], tab[j]);
 }/*komentarz2*/
- 
+ /*kolejny 6 komentarz*/
 int main()
 {
   int *tab, n;
