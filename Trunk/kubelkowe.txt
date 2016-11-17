@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+ 
+void sortowanie_kubelkowe(int tab[], int n)
+{
+  //szukanie minimum i maksimum
+  int Min = tab[0], Max = tab[0];
+  for(int i=1;i<n;i++)
+  {
+    if(Min > tab[i]) Min = tab[i];
+    if(Max < tab[i]) Max = tab[i];
+  }
+  if(Max - Min > 100000000)
+  {
+    cout<<"Ten algorytm sobie nie poradzi\n";
+    return;
+  }
+  //tworzenie pomocniczej tablicy
+  int *pom = new int [Max - Min + 1];
+  //zerowanie tablicy pomocniczej
+  for(int i=0;i<Max - Min + 1;i++) pom[i] = 0;
+  //zliczanie wartosci
+  for(int i=0;i<n;i++) ++pom[tab[i]-Min];
+  //zapisywanie posortowanego zbioru do pierwotnej tablicy
+  int k=0;
+  for(int i=0;i<Max-Min+1;i++)while(pom[i]--)tab[k++]=i + Min;
+ 
+  delete [] pom;
+}
+ 
+int main()
+{
+  int n, *tab;
+  cin>>n;
+  tab = new int [n+1];
+  //wczytanie zbioru
+  for(int i=0;i<n;i++) cin>>tab[i];
+  //-------------------------------
+  sortowanie_kubelkowe(tab, n);
+  //-------------------------------
+  //wypisanie zbioru
+  for(int i=0;i<n;i++) cout<<tab[i]<<" ";
+  delete [] tab;
+  return 0;
+}
