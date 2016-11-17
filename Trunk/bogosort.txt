@@ -1,4 +1,4 @@
-public function bogoSort(arr:Array):Array
+public function bogoSort(arr:Array):Array/*komentrz Przemek*/
 {
     while (!sorted(arr))
     {
