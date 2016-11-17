@@ -1,12 +1,14 @@
 #include<iostream>
 #include<cstdlib>
+using namespace std;
+ 
 using namespace std;/* namespace - 6 */
  /*pusta linijka - 7*/
 void sortowanie_babelkowe(int tab[],int n)
 {/* koemntarz 1*/
   for(int i=0;i<n;i++)/* for - 4*/
     for(int j=1;j<n-i;j++) //pêtla wewnêtrzna
-    if(tab[j-1]>tab[j])/* randomowy if - 5*/
+    if(tab[j-1]>tab[j])/* if - 10 */
       //zamiana miejscami
       swap(tab[j-1], tab[j]);/* swap swap - 9*/
 }
@@ -17,18 +19,18 @@ int main()/* oto funkcja main - 2*/
  
   cout<<"Ile liczb bêdziesz chcia³ posortowaæ? ";
   cin>>n;
- 
+ /*komentarz3*/
   tab = new int [n]; //przydzielenie pamiêci na elementy tablicy
   //wczytanie liczb
   for(int i=0;i<n;i++)
     cin>>tab[i];
- 
+ /*komentarz4*/
   sortowanie_babelkowe(tab,n);
  
   //wypisanie posortowanych elementów
   for(int i=0;i<n;i++)
           cout<<tab[i]<<" ";
- 
+ /*komentarz5*/
   cout<<endl;
   system("pause");
   return 0;
