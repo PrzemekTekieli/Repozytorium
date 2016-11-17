@@ -4,7 +4,7 @@ using namespace std;
  
 void sortowanie_babelkowe(int tab[],int n)
 {/*komentarz1*/
-  for(int i=0;i<n;i++)
+  for(int i=0;i<n;i++)/* petla - 8*/
     for(int j=1;j<n-i;j++) //pêtla wewnêtrzna
     if(tab[j-1]>tab[j])
       //zamiana miejscami
