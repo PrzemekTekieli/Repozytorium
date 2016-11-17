@@ -28,7 +28,7 @@ int main()
   //wypisanie posortowanych elementów
   for(int i=0;i<n;i++)
           cout<<tab[i]<<" ";
- 
+ /*komentarz5*/
   cout<<endl;
   system("pause");
   return 0;
