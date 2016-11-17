@@ -11,7 +11,7 @@ void sortowanie_babelkowe(int tab[],int n)
       swap(tab[j-1], tab[j]);
 }
  
-int main()
+int main()/* oto funkcja main - 2*/
 {
   int *tab, n;
  
