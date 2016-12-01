@@ -17,7 +17,7 @@ tab[largest]=tab[i];
 tab[i]=temp;
 heapify(tab,heap_size,largest);
 }
-}
+}//zmiana 4
 void budKopiec(int *tab, int rozmiar)
 {
 for (int i=rozmiar/2;i>0;i--)
