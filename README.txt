@@ -1,0 +1,1 @@
+Autor: Przemek Tekieli
