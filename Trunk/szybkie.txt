@@ -26,7 +26,7 @@ void quick_sort(int *tab, int lewy, int prawy)
       swap(tab[i],tab[j]);
     else
       break;
-  }
+  }//quick sort najlepszy - 5
  
   if(j > lewy)
   quick_sort(tab, lewy, j);
