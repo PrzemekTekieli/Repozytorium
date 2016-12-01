@@ -22,7 +22,7 @@ void scal(int tab[], int lewy, int srodek, int prawy)
              tab[k] = pom[j++];
          else
              tab[k] = pom[i++];
-    else
+    else//zmiana 5 znowu
         tab[k] = pom[i++];
   else
       tab[k] = pom[j++];
