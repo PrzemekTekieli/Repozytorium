@@ -30,3 +30,4 @@ int main() {
   copy(std::begin(a), std::end(a), std::ostream_iterator<int>(std::cout, " "));
   std::cout << "\n";
 }
+//zmiana 3 w master
