@@ -12,7 +12,7 @@ void scal(int tab[], int lewy, int srodek, int prawy)
   //kopiujemy lew¹ i praw¹ czêœæ tablicy do tablicy pomocniczej
   for(int i = lewy;i<=prawy; i++) 
     pom[i] = tab[i];  
- 
+ //zmiana - 2
   //scalenie dwóch podtablic pomocniczych i zapisanie ich 
   //we w³asciwej tablicy
   for(int k=lewy;k<=prawy;k++) 
