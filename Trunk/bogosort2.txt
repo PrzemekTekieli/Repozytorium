@@ -15,7 +15,7 @@ void bogo_sort(RandomAccessIterator begin, RandomAccessIterator end,
     std::shuffle(begin, end, generator);
   }
 }
- 
+ //zmiana 3
 template <typename RandomAccessIterator>
 void bogo_sort(RandomAccessIterator begin, RandomAccessIterator end) {
   bogo_sort(
