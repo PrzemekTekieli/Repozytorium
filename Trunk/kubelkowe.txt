@@ -26,7 +26,7 @@ void sortowanie_kubelkowe(int tab[], int n)
   for(int i=0;i<Max-Min+1;i++)while(pom[i]--)tab[k++]=i + Min;
  
   delete [] pom;
-}
+}//zmiana 4
  
 int main()
 {
