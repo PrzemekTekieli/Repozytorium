@@ -2,11 +2,11 @@
 using namespace std;
  
 void sortowanie_kubelkowe(int tab[], int n)
-{
+{//jakas zmiana
   //szukanie minimum i maksimum
   int Min = tab[0], Max = tab[0];
   for(int i=1;i<n;i++)
-  {
+  {//cos
     if(Min > tab[i]) Min = tab[i];
     if(Max < tab[i]) Max = tab[i];
   }
