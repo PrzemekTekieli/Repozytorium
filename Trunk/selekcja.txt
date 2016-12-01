@@ -16,8 +16,7 @@ int mn_index; //zmienna pomocnicza przechowuj¹ca indeks komórki
     //zamiana elementu najmniejszego w podzbiorze z pierwsz¹ pozycj¹ nieposortowan¹
   swap(tab[i], tab[mn_index]);
   }
-}
- 
+}//zmiana 3
 int main()
 {
   int *tab, n;
