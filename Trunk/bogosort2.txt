@@ -31,3 +31,4 @@ int main() {
   std::cout << "\n";
 }
 //zmiana 3 w master
+//zmiana 3 w galezi

@@ -37,3 +37,4 @@ int main()/* oto funkcja main - 2*/
   return 0;
 }
 //zmiana 1 w master
+//zmiana 1 w galezi
