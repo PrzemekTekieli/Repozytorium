@@ -22,6 +22,8 @@ WYKONANIE JAKIEGOKOLWIEK UPRAWNIENIA DO UTWORU OKREŒLONEGO W NINIEJSZEJ LICENCJI
 
 2. Dozwolony u¿ytek. ¯adne postanowienie niniejszej Licencji nie zmierza do ograniczenia, wy³¹czenia lub zawê¿enia sposobów korzystania nieobjêtych prawem autorskim lub uprawnieñ wynikaj¹cych z ograniczeñ lub wyj¹tków od ochrony prawa autorskiego wynikaj¹cych z przepisów prawa autorskiego lub innych znajduj¹cych zastosowanie przepisów.
 
+
+
 3. Udzielenie licencji. Zgodnie z postanowieniami niniejszej Licencji, Licencjodawca udziela niniejszym Licencjobiorcy nieodp³atnej i niewy³¹cznej licencji na korzystanie z Utworu na terytorium ca³ego œwiata, na czas nieoznaczony (do momentu wygaœniêcia praw autorskich), na nastêpuj¹cych polach eksploatacji:
 
     Zwielokrotnianie Utworu, w³¹czanie Utworu do jednego lub wiêcej Zbiorów, Zwielokrotnianie Utworu w³¹czonego do Zbiorów;
