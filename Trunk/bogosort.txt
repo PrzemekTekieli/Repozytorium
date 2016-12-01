@@ -19,7 +19,7 @@ public function shuffle(arr:Array):void
         arr[rand] = tmp;
     }
 }
- 
+ //zmiana 2
 public function sorted(arr:Array):Boolean
 {
     var last:int = arr[0];
