@@ -36,3 +36,4 @@ int main()/* oto funkcja main - 2*/
   system("pause");
   return 0;
 }
+//zmiana 1 w master
